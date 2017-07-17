@@ -1,7 +1,8 @@
-FieldNames
+# field-names: simple macro annotation
 =====
+[![Build Status](https://travis-ci.org/lorandszakacs/field-names.svg?branch=master)](https://travis-ci.org/lorandszakacs/field-names)
 
-`field-names` is a simple scala library built on top of [scala-meta](https://github.com/scalameta/scalameta) that provides a simple type annotation called `@FieldNames` which makes the field names of a case class available as runtime `String` values.
+`field-names` is a simple scala library—built on top of [scala-meta](https://github.com/scalameta/scalameta)—that provides a simple type annotation called `@FieldNames` which makes the field names of a case class available as runtime `String` values.
 
 Quickstart:
 ----
