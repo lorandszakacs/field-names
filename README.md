@@ -11,8 +11,8 @@ TODO:
 add module IDs and stuff like that.
 
 
-## Example:
-----
+## Example:  
+
 ```scala
 import fieldnames.FieldNames
 
