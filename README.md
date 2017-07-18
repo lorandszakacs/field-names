@@ -7,7 +7,10 @@
 
 ## Quickstart:
 
-### sbt
+#### TODO: publishLocal
+Unfortunately, you will have to publish the library locally, simply clone this repository, and run `sbt + publishLocal` locally, to make the library available to your local `sbt` build. This will be fixed as soon as I figure out how to create an account on one of those central repositories 😩
+
+#### sbt
 
 Add the following to your sbt build:
 ```scala
@@ -42,8 +45,8 @@ lazy val macroAnnotationSettings = Seq(
   scalacOptions in(Compile, console) ~= (_ filterNot (_ contains "paradise")) // macroparadise plugin doesn't work in repl yet.
 )
 ```
-
-### Supported Scala versions
+#### Supported Scala versions
+This library is currently being built against Scala versions `2.12.2` and `2.11.11`
 
 ## Example:
 
