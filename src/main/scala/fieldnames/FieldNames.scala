@@ -55,7 +55,7 @@ class FieldNames extends StaticAnnotation {
 
     val nameConstantVals =
       clz.ctor.paramss.flatten.map { p =>
-        q"""val ${Pat.Var.Term(Term.Name(p.name.value))} : String = ${Lit.String(p.name.value)} """
+        q"""val ${Pat.Var.Term(Term.Name(p.name.value))} : String = ${Lit.String(p.name.value)}"""
       }
 
     val fieldsObject =
